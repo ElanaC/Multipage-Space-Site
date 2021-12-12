@@ -1,0 +1,73 @@
+
+
+      body{
+        background-image:url('https://miro.medium.com/max/1200/1*9IIoxOcIbhMFFKMCI2ncuQ.jpeg');background-repeat:no-repeat;
+        background-size:cover;
+      }
+
+/*
+h1,a{
+  color:white;
+} 
+can comment this out since bottom has universal effect styling and this is no longer needed
+*/
+
+h1::first-letter{
+  font-size:2em;
+}
+
+*{
+  color:white;
+}
+
+main{
+  font-family:fantasy;
+  text-align:center;
+  width:75%;
+  margin:auto;
+  line-height:35px;
+}
+
+/*Anchor styling*/
+a:hover{
+  background-color:lightblue;
+  color:orange;
+}
+
+/*Multi line comment
+line 2
+line 3*/
+
+a:active{
+  background-color:green;
+  color:yellow;
+}
+
+nav a:active{
+  background-color:green;
+  color:yellow;
+}
+
+nav a{
+  text-decoration:none;
+  margin:20px;
+}
+
+a[target="_blank"]{
+color:blue;
+background-color:white;
+}
+
+img{
+  width:40%;
+  margin:30px;
+}
+
+img[alt]{
+  border:2px white dotted;
+}
+
+#space_dotted{
+  color:beige;
+  background-color:red;
+}
